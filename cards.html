@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pricing Table</title>
+<style>
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #603192, #637ba4);
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+button {
+    padding: 8px 15px;
+    border: none;
+    background: #9245e3;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background: #2575fc;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <h3>prod1</h3>
+        <p>Rs.500</p>
+        <button>Choose</button>
+    </div>
+    <div class="card">
+        <h3>Prod2</h3>
+        <p>Rs.600</p>
+        <button>Choose</button>
+    </div>
+    <div class="card">
+        <h3>Prod3</h3>
+        <p>Rs.700</p>
+        <button>Choose</button>
+    </div>
+</div>
+</body>
+</html>
